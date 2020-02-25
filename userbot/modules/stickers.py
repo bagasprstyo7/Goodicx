@@ -19,16 +19,16 @@ from telethon.tl.types import InputStickerSetID
 from telethon.tl.types import DocumentAttributeSticker
 
 KANGING_STR = [
-    "Using Witchery to kang this sticker...",
-    "Plagiarising hehe...",
-    "Inviting this sticker over to my pack...",
-    "Kanging this sticker...",
-    "Hey that's a nice sticker!\nMind if I kang?!..",
-    "hehe me stel ur stikér\nhehe.",
-    "Ay look over there (☉｡☉)!→\nWhile I kang this...",
-    "Roses are red violets are blue, kanging this sticker so my pacc looks cool",
-    "Imprisoning this sticker...",
-    "Mr.Steal Your Sticker is stealing this sticker... ",
+    "Bjir keren gayn, curry ah...",
+    "Kucurry ea hehe...",
+    "Wkwkw curry doloe ea...",
+    "Curry on progress...",
+    "Loh loh cek baguse\n Ku curry ea?!..",
+    "Kalo naiss pasti gue curry\n hehe.",
+    "Curry curry currry \n wkwkwkwk...",
+    "Loh jelas kucurryy \n wkwkwkw",
+    "Hehey not bad gayn \n wkwkwkw...",
+    "Otw currryyy coek \n hoho... ",
 ]
 
 
@@ -96,7 +96,7 @@ async def kang(args):
                 emoji = splat[1]
 
         packname = f"a{user.id}_by_{user.username}_{pack}"
-        packnick = f"@{user.username}'s kang pack Vol.{pack}"
+        packnick = f"@{user.username}starterpack Vol.{pack}"
         cmd = '/newpack'
         file = io.BytesIO()
 
