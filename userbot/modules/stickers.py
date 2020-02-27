@@ -19,11 +19,11 @@ from telethon.tl.types import InputStickerSetID
 from telethon.tl.types import DocumentAttributeSticker
 
 KANGING_STR = [
-    "....",
+    "Tercurrryyy wkwk",
 ]
 
 
-@register(outgoing=True, pattern="^.get")
+@register(outgoing=True, pattern="^.kang")
 async def kang(args):
     """ For .get command, kangs stickers or creates new ones. """
     user = await bot.get_me()
@@ -87,7 +87,7 @@ async def kang(args):
                 emoji = splat[1]
 
         packname = f"{user.username}{pack}"
-        packnick = f"@{user.username} fortizers {pack}"
+        packnick = f"@{user.username} starterpack {pack}"
         cmd = '/newpack'
         file = io.BytesIO()
 
